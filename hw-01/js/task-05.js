@@ -2,24 +2,34 @@
 
 const country = prompt('Введите страну');
 const selectedCountry = country.toLowerCase();
-const countries = ['Китай', 'Чили', 'Австралия', 'Индию', 'Ямайку'];
-const prices = ['100', '250', '170', '80', '120'];
+let countryName;
+let price;
 
 switch (selectedCountry) {
   case 'китай':
-    alert(`Доставка в ${countries[0]} будет стоить ${prices[0]} кредитов`);
+    countryName = 'Китай';
+    price = 100;
+    alert(`Доставка в ${countryName} будет стоить ${price} кредитов`);
     break;
   case 'чили':
-    alert(`Доставка в ${countries[1]} будет стоить ${prices[1]} кредитов`);
+    countryName = 'Чили';
+    price = 250;
+    alert(`Доставка в ${countryName} будет стоить ${price} кредитов`);
     break;
   case 'австралия':
-    alert(`Доставка в ${countries[2]} будет стоить ${prices[2]} кредитов`);
+    countryName = 'Австралия';
+    price = 170;
+    alert(`Доставка в ${countryName} будет стоить ${price} кредитов`);
     break;  
   case 'индия':
-    alert(`Доставка в ${countries[3]} будет стоить ${prices[3]} кредитов`);
+    countryName = 'Индию';
+    price = 80;
+    alert(`Доставка в ${countryName} будет стоить ${price} кредитов`);
     break;
   case 'ямайка':
-    alert(`Доставка в ${countries[4]} будет стоить ${prices[4]} кредитов`);
+    countryName = 'Ямайку';
+    price = 120;
+    alert(`Доставка в ${countryName} будет стоить ${price} кредитов`);
     break;
   default:
     alert('В вашей стране доставка не доступна');
