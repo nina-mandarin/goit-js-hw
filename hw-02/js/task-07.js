@@ -7,7 +7,7 @@ let total = 0;
 do {
   input = prompt('Введите число');
   if (input !== null) {
-    if(Number(input)) {
+    if (Number(input) >= 0) {
       numbers.push(Number(input));
     } else {
       alert('Было введено не число, попробуйте еще раз');

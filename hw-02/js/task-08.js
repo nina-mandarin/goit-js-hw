@@ -2,7 +2,7 @@
 
 const logins = ['Mango', 'robotGoogles', 'Poly', 'Aj4x1sBozz', 'qwerty123'];
 
-const isLoginValid = function(login) {
+const isLoginValid = function (login) {
   if (login.length >= 4 && login.length <= 16) {
     return true;
   } else {
@@ -10,7 +10,7 @@ const isLoginValid = function(login) {
   }
 };
 
-const isLoginUnique = function(allLogins, login) {
+const isLoginUnique = function (allLogins, login) {
   if (allLogins.includes(login)) {
     return false;
   } else {
@@ -18,8 +18,8 @@ const isLoginUnique = function(allLogins, login) {
   }
 };
 
-const addLogin = function(allLogins, login) {
-  if(isLoginValid(login)) {
+const addLogin = function (allLogins, login) {
+  if (isLoginValid(login)) {
     if (isLoginUnique(allLogins, login)) {
       allLogins.push(login);
       return console.log('Логин успешно добавлен!');
