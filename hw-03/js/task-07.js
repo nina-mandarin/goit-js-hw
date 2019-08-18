@@ -47,7 +47,8 @@ const account = {
     transaction.amount = amount;
     if (amount <= this.balance) {
       this.addTransaction(transaction);
-      return (this.balance -= amount);
+      this.balance -= amount;
+      return this.balance;
     } else {
       console.log(
         'Снятие такой суммы не возможно, недостаточно средств на балансе!',
