@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container:last-of-type {
+  margin-bottom: 0;
+}
+
+.container_title {
+  margin: 0 0 10px;
+  color: #777;
+}
+
+/* Task #3 */
+#gallery {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0;
+}
+
+.gallery-item {
+  flex: 0 0 32%;
+  list-style-type: none;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Task #6 */
+#validation-input.valid {
+  outline: 3px solid #4caf50;
+}
+
+#validation-input.invalid {
+  outline: 3px solid #f44336;
+}

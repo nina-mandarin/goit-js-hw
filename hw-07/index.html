@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home work 7</title>
+  </head>
+  <body>
+    <!-- task #1 -->
+    <div class="container">
+      <h3 class="container_title">Task 1</h3>
+      <ul id="categories">
+        <li class="item">
+          <h2>Животные</h2>
+
+          <ul>
+            <li>Кот</li>
+            <li>Хомяк</li>
+            <li>Лошадь</li>
+            <li>Попугай</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Продукты</h2>
+
+          <ul>
+            <li>Хлеб</li>
+            <li>Петрушка</li>
+            <li>Творог</li>
+          </ul>
+        </li>
+        <li class="item">
+          <h2>Технологии</h2>
+
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <!-- task #2 -->
+    <div class="container">
+      <h3 class="container_title">Task 2</h3>
+      <ul id="ingredients"></ul>
+    </div>
+
+    <!-- task #3 -->
+    <div class="container">
+      <h3 class="container_title">Task 3</h3>
+      <ul id="gallery"></ul>
+    </div>
+
+    <!-- task #4 -->
+    <div class="container">
+      <h3 class="container_title">Task 4</h3>
+      <div id="counter">
+        <button type="button" data-action="decrement">-1</button>
+        <span id="value">0</span>
+        <button type="button" data-action="increment">+1</button>
+      </div>
+    </div>
+
+    <!-- task #5 -->
+    <div class="container">
+      <h3 class="container_title">Task 5</h3>
+      <input type="text" placeholder="Ваше имя?" id="name-input" />
+      <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+    </div>
+
+    <!-- task #6 -->
+    <div class="container">
+      <h3 class="container_title">Task 6</h3>
+      <input
+        type="text"
+        id="validation-input"
+        data-length="6"
+        placeholder="Введи 6 символов"
+      />
+    </div>
+
+    <!-- task #7 -->
+    <div class="container">
+      <h3 class="container_title">Task 7</h3>
+      <input id="font-size-slider" type="range" />
+      <br />
+      <span id="text">Абракадабра!</span>
+    </div>
+
+    <!-- task #8 -->
+    <div class="container">
+      <h3 class="container_title">Task 8</h3>
+      <div id="controls">
+        <input type="number" min="0" max="100" step="1" />
+        <button type="button" data-action="render">Создать</button>
+        <button type="button" data-action="destroy">Очистить</button>
+      </div>
+
+      <div id="boxes"></div>
+    </div>
+
+    <script src="js/task-01.js" type="module"></script>
+    <script src="js/task-02.js" type="module"></script>
+    <script src="js/task-03.js" type="module"></script>
+    <script src="js/task-04.js" type="module"></script>
+    <script src="js/task-05.js" type="module"></script>
+    <script src="js/task-06.js" type="module"></script>
+    <script src="js/task-07.js" type="module"></script>
+    <script src="js/task-08.js" type="module"></script>
+  </body>
+</html>
