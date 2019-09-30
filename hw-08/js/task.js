@@ -55,8 +55,8 @@ function openModal(e) {
 
 function closeModal() {
   modal.classList.remove('is-open');
-  // modalImg.setAttribute('src', '');
-  // modalImg.setAttribute('alt', '');
+  modalImg.setAttribute('src', '');
+  modalImg.setAttribute('alt', '');
   window.removeEventListener('keydown', handleEsc);
 }
 
