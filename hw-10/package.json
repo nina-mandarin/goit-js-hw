@@ -14,11 +14,8 @@
     "url": "git+https://github.com/nina-mandarin/goit-js-hw.git"
   },
   "keywords": [],
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Nina Miroshnychenko",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
-  },
   "homepage": "https://nina-mandarin.github.io/goit-js-hw/",
   "devDependencies": {
     "@babel/core": "^7.4.5",
