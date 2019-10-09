@@ -14,9 +14,9 @@
     "url": "git+https://github.com/nina-mandarin/goit-js-hw.git"
   },
   "keywords": [],
-  "author": "Nina Miroshnychenko",
+  "author": "Nina Miroshnychenko <NinaSergiivna@meta.ua>",
   "license": "MIT",
-  "homepage": "https://nina-mandarin.github.io/goit-js-hw/",
+  "homepage": "https://nina-mandarin.github.io/goit-js-hw",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -27,7 +27,7 @@
     "css-loader": "^3.0.0",
     "file-loader": "^4.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "handlebars-loader": "^1.7.1",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
